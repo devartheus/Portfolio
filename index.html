@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Desenvolvedor Web</title>
+    <meta name="description" content="Portfólio profissional de desenvolvimento web, mostrando projetos e habilidades">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <div class="content">
+        <header class="header">
+            <nav class="nav">
+                <a href="#" class="logo">Portfólio</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1>Olá, eu sou o Fabiano <span class="highlight">Desenvolvedor Web</span></h1>
+                    <p class="subtitle">Criando experiências digitais incríveis</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary">Ver Projetos</a>
+                        <a href="#contact" class="btn secondary">Contato</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <h2>Sobre Mim</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Desenvolvedor web apaixonado por criar soluções inovadoras e funcionais. Com experiência em desenvolvimento front-end e back-end, busco sempre aprender novas tecnologias e melhorar minhas habilidades.</p>
+                        <p>Meu objetivo é criar experiências digitais que sejam não apenas bonitas, mas também intuitivas e acessíveis para todos os usuários.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Estruturação semântica e acessível</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <p>Estilização moderna e responsiva</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Interatividade e dinamismo</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                        <p>Desenvolvimento de interfaces</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="projects" class="projects">
+                <h2>Projetos</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="https://via.placeholder.com/400x300" alt="Projeto 1">
+                        <div class="project-info">
+                            <h3>Projeto 1</h3>
+                            <p>Descrição do projeto e tecnologias utilizadas.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn primary">Ver Projeto</a>
+                                <a href="#" class="btn secondary">Código</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="https://via.placeholder.com/400x300" alt="Projeto 2">
+                        <div class="project-info">
+                            <h3>Projeto 2</h3>
+                            <p>Descrição do projeto e tecnologias utilizadas.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn primary">Ver Projeto</a>
+                                <a href="#" class="btn secondary">Código</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Contato</h2>
+                <div class="contact-content">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Nome</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Portfólio. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
